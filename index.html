@@ -6,14 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daniel Santos CV</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif:opsz,wght@8..144,700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <main class="resume-contents">
 
         <section class="left-section">
-            
+
             <section class="left-section-content">
-                
+
                 <div class="profile">
                     <img class="profile-image" src="img/profile-image.jpg" alt="Profile image">
                     <p class="name">Daniel Santos</p>
@@ -26,35 +30,81 @@
                         <li><i class="fa fa-phone"></i>+55 11 99999-1111</li>
                         <li><i class="fa fa-envelope"></i>daniel@gmail.com</li>
                         <li><i class="fa fa-globe"></i>www.daniel.com</li>
-                        <li><i class="fa fa-githum"></i>drsantos20</li>
+                        <li><i class="fa fa-github"></i>drsantos20</li>
                     </ul>
                 </div>
 
                 <div class="skills">
                     <p class="left-title">Skills</p>
                     <ul>
-                        <li>HTML, CSS, Git, GitHub</li>
-                        <li>Linux</li>
+                        <li><p>Python, Django, Flask & Fastapi</p></li>
+                        <li><p>Java</p></li>
+                        <li><p>JavaScript, VueJS</p></li>
+                        <li><p>HTML5, CSS3</p></li>
+                        <li><p>SQL, Postgres, MongoDB</p></li>
+                        <li><p>Git, GitHub</p></li>
+                        <li><p>Linux, Bash/Shell</p></li>
                     </ul>
                 </div>
-            
+
             </section>
-        
+
         </section>
 
         <section class="right-section">
-            <div class="right-section-content">
+            <div class="right-section-contents">
                 <section class="about gap">
                     <div class="right-title">Sobre mim</div>
-                    <p class="about-me-content">
-                        Software Engineer and community contributor (open source repositories), Distributed Systems, and Functional Programming passionate.<br>
+                    <p class="about-me-contents">
+                        Software Engineer and community contributor (open source repositories), Distributed Systems, and
+                        Functional Programming passionate.<br>
                         <br>Experienced with cloud providers such as AWS, Google Cloud Platform.
-                        <br>Over the past years, my main language is Python acting as a Software Engineer also as an Architect.
+                        <br>Over the past years, my main language is Python acting as a Software Engineer also as an
+                        Architect.
                     </p>
                 </section>
             </div>
+
+            <section class="experience gap">
+                <div class="right-title">Experience</div>
+
+                <div class="experience-contents">
+
+                    <div class="exp-left">
+                        <p class="exp-company-name">Jet Bridge</p>
+                        <p class="exp-time-period">2021-Present</p>
+                    </div>
+
+                    <div class="exp-right">
+                        <p class="exp-position">Senior Software Engineer</p>
+                        <p class="exp-desc">Working to keep and maintain a bioinformatics pipeline and workflows using tools like Python, Nextflow, Kafka, and Fast API</p>
+                    </div>
+
+                    <div class="exp-left">
+                        <p class="exp-company-name">Voxy</p>
+                        <p class="exp-time-period">2017-2021</p>
+                    </div>
+
+                    <div class="exp-right">
+                        <p class="exp-position">Software Engineer</p>
+                        <p class="exp-desc">Collaborate on leading design and implement a new student flow using Django Rest Framework and VueJS Lead design on and implement a migration from legacy mongo database into a SQL Postgres database</p>
+                    </div>
+
+                    <div class="exp-left">
+                        <p class="exp-company-name">99 Taxis</p>
+                        <p class="exp-time-period">2017-2018</p>
+                    </div>
+
+                    <div class="exp-right">
+                        <p class="exp-position">Software Engineer</p>
+                        <p class="exp-desc">Collaborate with the Data Engineer team to create APIs to collect and ingest data in the data pipeline, also, lead a project to develop batch systems to scrape data from some data sources to populate internal databases</p>
+                    </div>
+
+                </div>
+            </section>
         </section>
-    
+
     </main>
 </body>
+
 </html>
